@@ -3,7 +3,7 @@ session_start();
 require('../connection/db.php');
 
 // Check if the user is logged in
-if (!isset($_SESSION['user_id'])) {
+if (!isset($_SESSION['csn_usn'])) {
     header("Location: ../students/login.php");
     exit();
 }
