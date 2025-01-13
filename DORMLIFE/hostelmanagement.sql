@@ -219,7 +219,7 @@ CREATE TABLE `vblock_beds` (
 --
 
 INSERT INTO `vblock_beds` (`bed_id`, `room_id`, `bed_number`, `is_booked`, `student_name`) VALUES
-(125, 1, 1, 1, 'loop'),
+(125, 1, 1, 1, NULL),
 (126, 1, 2, 0, NULL),
 (127, 1, 3, 0, NULL),
 (128, 2, 1, 0, NULL),
@@ -254,7 +254,7 @@ INSERT INTO `vblock_beds` (`bed_id`, `room_id`, `bed_number`, `is_booked`, `stud
 (157, 11, 3, 0, NULL),
 (158, 12, 1, 0, NULL),
 (159, 12, 2, 0, NULL),
-(160, 12, 3, 1, 'abhi'),
+(160, 12, 3, 1, NULL),
 (161, 13, 1, 0, NULL),
 (162, 13, 2, 0, NULL),
 (163, 13, 3, 0, NULL),
